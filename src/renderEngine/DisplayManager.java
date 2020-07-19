@@ -6,7 +6,7 @@ import org.lwjgl.opengl.DisplayMode;
 
 public class DisplayManager {
     private static final int WIDTH = 800;
-    private static final int HEIGHT = 600;
+    private static final int HEIGHT = 800;
     private static final int FPS_CAP = 30;
 
     public static void createDisplay() {
