@@ -17,6 +17,7 @@ public class DisplayManager {
             Display.setDisplayMode(new DisplayMode(WIDTH, HEIGHT));
             Display.create(new PixelFormat(), attribs);
             Display.setTitle("🦄");
+            Display.setInitialBackground(0.5f, 0.5f, 1.5f);
         } catch (LWJGLException e) {
             e.printStackTrace();
         }
